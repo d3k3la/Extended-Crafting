@@ -17,7 +17,7 @@ Add change it to the following
 
 class CfgExileCustomCode 
 {
-	ExileClient_object_item_craft = "custom\extendedCrafting\ExileClient_object_item_craft.sqf"; 
+    ExileClient_object_item_craft = "custom\extendedCrafting\ExileClient_object_item_craft.sqf"; 
     ExileClient_gui_crafting_show = "custom\extendedCrafting\ExileClient_gui_crafting_show.sqf";
     ExileClient_util_item_getCraftingRecipes = "custom\extendedCrafting\ExileClient_util_item_getCraftingRecipes.sqf";
 };
@@ -40,27 +40,27 @@ class gm6_lynx: Exile_AbstractCraftingRecipe
 			requiredInteractionModelGroup = "AdvancedWorkBench";
             returnedItems[] =
             {
-                    {1, "srifle_GM6_F"},
-					{1, "5Rnd_127x108_Mag"}
+                {1, "srifle_GM6_F"},
+		{1, "5Rnd_127x108_Mag"}
             };
             tools[] =
             {
-					"Exile_Item_Hammer",
-					"Exile_Item_Grinder", 
-					"Exile_Item_Pliers",
-					"Exile_Item_Screwdriver"
+		"Exile_Item_Hammer",
+		"Exile_Item_Grinder", 
+		"Exile_Item_Pliers",
+		"Exile_Item_Screwdriver"
             };
             components[] =
             {
-                    {15, "Exile_Item_WeaponParts"},
-					{2, "Exile_Item_MetalPole"},
-					{4, "Exile_Item_MetalScrews"},
-					{2, "Exile_Item_SprayCan_Black"},
-					{1, "Exile_Item_MetalWire"},
-					{2, "Exile_Item_Can_Empty"},
-					{1, "Exile_Item_MetalBoard"}	
+                {15, "Exile_Item_WeaponParts"},
+		{2, "Exile_Item_MetalPole"},
+		{4, "Exile_Item_MetalScrews"},
+		{2, "Exile_Item_SprayCan_Black"},
+		{1, "Exile_Item_MetalWire"},
+		{2, "Exile_Item_Can_Empty"},
+		{1, "Exile_Item_MetalBoard"}	
             };
-			category = "Sniper Rifles";
+		category = "Sniper Rifles";
     };
 
 CUSTOMIZATION:
