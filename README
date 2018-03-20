@@ -13,7 +13,7 @@ Create a folder in your mpmission folder called 'custom'
 Copy the folder 'extendedCrafting' to the newly created 'custom' folder
 Open your config.cpp and find 'class CfgExileCustomCode'
 
-Add change it to the following 
+And change it to the following 
 
 class CfgExileCustomCode 
 {
@@ -22,7 +22,7 @@ class CfgExileCustomCode
     ExileClient_util_item_getCraftingRecipes = "custom\extendedCrafting\ExileClient_util_item_getCraftingRecipes.sqf";
 };
 
-If you already have owverwrites for these files, then you will need to merge the changes manually
+If you already have overwrites for these files, then you will need to merge the changes manually
 
 Re-pbo the mpmission folder and upload to your server
 
