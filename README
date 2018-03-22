@@ -70,6 +70,3 @@ Add the following to your recipe and toggle on (1) and off with (0)
 requiresWeld = 1; 
 requiresGen = 1;
 requiresToolTrolley = 1;
-
-Included additional files for those using ExAd version of BRAma Recipes. These files initially altered by Novax
-to display weapons for crafting, then modified by myself to show the EBM items required
